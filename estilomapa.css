@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "cinzel";
+    src: url(fonts/CinzelDecorative-Bold.ttf);
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set height and width for html, body, and #map */
+  html, body, #map {
+    height: 100vh;
+    width: 100vw;
+  }
+  h1{
+    font-family: "cinzel";
+    position: fixed;
+    top: 20px;
+    left: 100px;
+    z-index: 1000;
+  writing-mode: vertical-rl;
+  
+  }
+  #legend {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    /* Cambia el color de fondo a un azul brillante */
+    background-color: #3498db; /* Puedes ajustar el código de color según tus preferencias */
+    /* Agrega un desenfoque al fondo */
+    backdrop-filter: blur(10px); /* Puedes ajustar el valor del desenfoque según tus preferencias */
+    /* Añade border-radius para esquinas redondeadas */
+    border-radius: 5px;
+    /* Añade box-shadow para un efecto de elevación sutil */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Cambia el color del texto para mayor contraste */
+    color: white;
+    top: 20px;
+    
+  }
+  
